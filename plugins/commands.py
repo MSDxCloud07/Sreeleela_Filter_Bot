@@ -28,7 +28,7 @@ async def start(client, message):
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -49,29 +49,29 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
             ],[
-                InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
+                InlineKeyboardButton('👑 𝗕𝘂𝘆 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗔𝗰𝗰𝗲𝘀𝘀 & 𝗥𝗲𝗳𝗲𝗿', callback_data='subscription')
             ],[
-                InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
             ],[
-                InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -135,29 +135,29 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
             ],[
-                InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
+                InlineKeyboardButton('👑 𝗕𝘂𝘆 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗔𝗰𝗰𝗲𝘀𝘀 & 𝗥𝗲𝗳𝗲𝗿', callback_data='subscription')
             ],[
-                InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
             ],[
-                InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -190,29 +190,29 @@ async def start(client, message):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                    InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                    InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
                 ],[
-                    InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
+                    InlineKeyboardButton('👑 𝗕𝘂𝘆 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗔𝗰𝗰𝗲𝘀𝘀 & 𝗥𝗲𝗳𝗲𝗿', callback_data='subscription')
                 ],[
-                    InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
                 ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🚀 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('💸 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗱 𝗘𝗮𝗿𝗻𝗶𝗻𝗴', callback_data="shortlink_info"),
+                    InlineKeyboardButton('🎬 𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('🎞️ 𝗕𝗼𝘁 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀', callback_data='help'),
+                    InlineKeyboardButton('📖 𝗔𝗯𝗼𝘂𝘁 𝗶𝗦𝘁𝗿𝗲𝗮𝗺𝗫', callback_data='about')
                 ],[
-                    InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('📢 𝗝𝗼𝗶𝗻 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url=CHNL_LNK)
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -382,9 +382,9 @@ async def start(client, message):
             return await message.reply_text(text="<b>ɪɴᴠᴀʟɪᴅ ʟɪɴᴋ ᴏʀ ᴇxᴘɪʀᴇᴅ ʟɪɴᴋ</b>", protect_content=True)
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
-            text = "<b>ʜᴇʏ {} 👋,\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ...\n\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛɪʟʟ ᴛᴏᴅᴀʏ ɴᴏᴡ ᴇɴᴊᴏʏ\n\n</b>"
+            text = "<b>✅ हे {}!\n\nआपकी वेरिफिकेशन सफल रही है 🎉\nअब आप अगले 24 घंटे तक बॉट को बिना किसी लिमिट के फ्री में इस्तेमाल कर सकते हैं।</b>"
             if PREMIUM_AND_REFERAL_MODE == True:
-                text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ☺️\n\n💶 ꜱᴇɴᴅ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"           
+                text += "<b>\n\n💎 अगर आप बॉट को बिना रुकावट और बिना वेरिफिकेशन के इस्तेमाल करना चाहते हैं,\nतो प्रीमियम लेना सबसे अच्छा तरीका है।\n\n📌 प्रीमियम में आपको सीधी फाइल, तेज स्पीड और पूरा एक्सेस मिलेगा।\n\n👉 प्रीमियम प्लान देखने के लिए /plan टाइप करें।</b>"           
             await message.reply_text(text=text.format(message.from_user.mention), protect_content=True)
             await verify_user(client, userid, token)
         else:
@@ -454,9 +454,9 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ", url=VERIFY_TUTORIAL)
                     ]]
-                    text = "<b>ʜᴇʏ {} 👋,\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ᴛᴏᴅᴀʏ</b>"
+                    text = "<b>👋 हे {}!\n\nआपने आज के लिए वेरिफिकेशन पूरा नहीं किया है।\n\nअगर आप अभी Verify करते हैं, तो आपको अगले 24 घंटे तक बॉट का पूरा एक्सेस फ्री में मिलेगा — कोई लिमिट नहीं, कोई रुकावट नहीं।</b>"
                     if PREMIUM_AND_REFERAL_MODE == True:
-                        text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ☺️\n\n💶 ꜱᴇɴᴅ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"
+                        text += "<b>\n\n📥 बिना वेरिफिकेशन के डायरेक्ट फाइल्स चाहिए? तो /plan बटन पर क्लिक करें और प्रीमियम एक्सेस ले लें।</b>"
                     await message.reply_text(
                         text=text.format(message.from_user.mention),
                         protect_content=True,
@@ -517,9 +517,9 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ", url=VERIFY_TUTORIAL)
                     ]]
-                    text = "<b>ʜᴇʏ {} 👋,\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ᴛᴏᴅᴀʏ</b>"
+                    text = "<b>👋 हे {}!\n\nआपने आज के लिए वेरिफिकेशन पूरा नहीं किया है।\n\nअगर आप अभी Verify करते हैं, तो आपको अगले 24 घंटे तक बॉट का पूरा एक्सेस फ्री में मिलेगा — कोई लिमिट नहीं, कोई रुकावट नहीं।</b>"
                     if PREMIUM_AND_REFERAL_MODE == True:
-                        text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ☺️\n\n💶 ꜱᴇɴᴅ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"
+                        text += "<b>\n\n📥 बिना वेरिफिकेशन के डायरेक्ट फाइल्स चाहिए? तो /plan बटन पर क्लिक करें और प्रीमियम एक्सेस ले लें।</b>"
                     await message.reply_text(
                         text=text.format(message.from_user.mention),
                         protect_content=True,
@@ -575,9 +575,9 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ", url=VERIFY_TUTORIAL)
             ]]
-            text = "<b>ʜᴇʏ {} 👋,\n\nʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ᴛᴏᴅᴀʏ</b>"
+            text = "<b>👋 हे {}!\n\nआपने आज के लिए वेरिफिकेशन पूरा नहीं किया है।\n\nअगर आप अभी Verify करते हैं, तो आपको अगले 24 घंटे तक बॉट का पूरा एक्सेस फ्री में मिलेगा — कोई लिमिट नहीं, कोई रुकावट नहीं।</b>"
             if PREMIUM_AND_REFERAL_MODE == True:
-                text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ☺️\n\n💶 ꜱᴇɴᴅ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"
+                text += "<b>\n\n📥 बिना वेरिफिकेशन के डायरेक्ट फाइल्स चाहिए? तो /plan बटन पर क्लिक करें और प्रीमियम एक्सेस ले लें।</b>"
             await message.reply_text(
                 text=text.format(message.from_user.mention),
                 protect_content=True,
@@ -1070,7 +1070,7 @@ async def shortlink(bot, message):
         return await message.reply(f"You are anonymous admin. Turn off anonymous admin and try again this command")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink kpslink.in CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://kpslink.in]]]\n\nIf you have any Doubts, Feel Free to Ask me - @kingvj01\n\n(Puriyala na intha contact la message pannunga - @kngvj01)</b>")
+        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink modijiurl.com c8726510e32e26a8e75a50fd377cd1e2d7f7ca06\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://modijiurl.com/ref/asbhaibsr]]]\n\nIf you have any Doubts, Feel Free to Ask me - @asbhaibsr\n\n(Puriyala na intha contact la message pannunga - @asbhaibsr)</b>")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1086,7 +1086,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/shortlink kpslink.in e3d82cdf8f9f4783c42170b515d1c271fb1c4500</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/shortlink modijiurl.com c8726510e32e26a8e75a50fd377cd1e2d7f7ca06</code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
