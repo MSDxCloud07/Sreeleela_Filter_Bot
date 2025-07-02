@@ -7,7 +7,7 @@ class script(object):
 
 I Aᴍ Tʜᴇ Mᴏꜱᴛ Pᴏᴡᴇʀꜰᴜʟʟ Mᴇᴅɪᴀ Pʀᴏᴠɪᴅᴇʀ Bᴏᴛ. I Cᴀɴ Pʀᴏᴠɪᴅᴇᴅ Aʟʟ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ Oʀ Sᴇʀɪᴇꜱ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ !!! 😍</b>
 
-\n<blockquote>👨‍💻 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/iam_MSD">Mꜱᴅ ♔</a></blockquote></b>"""
+\n<blockquote>👨‍💻 𝐌ᴀɪɴᴛᴀɪɴᴇᴅ 𝐁ʏ : <a href="https://t.me/iam_MSD">𝐌ꜱᴅ ♔</a></blockquote></b>"""
     
     CLONE_START_TXT = """<b>Hᴇʟʟᴏ {} 👋,
    
