@@ -206,16 +206,16 @@ Exᴀᴍᴘʟᴇ : Uɴᴄʜᴀʀᴛᴇᴅ Oʀ Uɴᴄʜᴀʀᴛᴇᴅ 𝟸𝟶�
 
 Sᴇʀɪᴇꜱ Rᴇǫᴜᴇꜱᴛ Fᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+Exᴀᴍᴘʟᴇ : Lᴏᴋɪ S𝟶𝟷 Oʀ Lᴏᴋɪ S𝟶𝟷E𝟶𝟺 Oʀ Lᴜᴄɪғᴇʀ S𝟶𝟹E𝟸𝟺
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+🚯 Dᴏɴ'ᴛ Uꜱᴇ ☞ ':(!,./)</b>"""
 
-    I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+    I_CUD_NT = """I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏ Mᴏᴠɪᴇ Rᴇʟᴀᴛᴇᴅ Tᴏ {}.
+Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ Iᴍᴅʙ..."""
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+    MVE_NT_FND = """Mᴏᴠɪᴇ Nᴏᴛ Fᴏᴜɴᴅ Iɴ Dᴀᴛᴀʙᴀꜱᴇ...😕"""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
+    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...👨‍💻"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
@@ -224,16 +224,19 @@ Sᴇʀɪᴇꜱ Rᴇǫᴜᴇꜱᴛ Fᴏʀᴍᴀᴛ 👇
 🫵 Select Your Language And Earn Money 💰"""
 
     REQINFO = """
-⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
+⚠ Iɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
-ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
+Aꜰᴛᴇʀ 𝟻 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇssᴀɢᴇ Aғᴛᴇʀ Wɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ 🚯
 
-ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
+Iꜰ Yᴏᴜ Dᴏ Nᴏᴛ Sᴇᴇ Tʜᴇ Rᴇǫᴜᴇsᴛᴇᴅ Mᴏᴠɪᴇ / Sᴇʀɪᴇs Fɪʟᴇ, Lᴏᴏᴋ Aᴛ Tʜᴇ Nᴇxᴛ Pᴀɢᴇ"""
 
-    SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
+    SELECT = """Dᴇʟᴇᴄᴛ Yᴏᴜʀ Pʀᴇғᴇʀʀᴇᴅ Lᴀɴɢᴜᴀɢᴇ, Qᴜᴀʟɪᴛʏ, Sᴇᴀꜱᴏɴ Aɴᴅ Eᴘɪꜱᴏᴅᴇ"""
 
-    SINFO = """
-🫣 For Movie Join First Then Click On Try Again Button 😅"""
+    SINFO = """Yᴏᴜ Aʀᴇ Nᴏᴛ Iɴ Oᴜʀ Bᴀᴄᴋ - Uᴘ Cʜᴀɴɴᴇʟꜱ Gɪᴠᴇɴ Bᴇʟᴏᴡ Sᴏ Yᴏᴜ Dᴏɴ'ᴛ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Fɪʟᴇ !!! 👨‍💻
+
+Iғ Yᴏᴜ Wᴀɴᴛ Tʜᴇ Mᴏᴠɪᴇ Fɪʟᴇ, Cʟɪᴄᴋ Oɴ Tʜᴇ Gɪᴠᴇɴ Bᴜᴛᴛᴏɴꜱ Bᴇʟᴏᴡ Aɴᴅ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ -ʙ Uᴘ Cʜᴀɴɴᴇʟꜱ, Tʜᴇɴ Cʟɪᴄᴋ Oɴ Tʜᴇ ' ↻ Tʀʏ Aɢᴀɪɴ ' Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ...
+
+Tʜᴇɴ Yᴏᴜ Wɪʟʟ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Fɪʟᴇꜱ !!! 😍"""
 
     NORSLTS = """ 
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
@@ -253,9 +256,9 @@ Sᴇʀɪᴇꜱ Rᴇǫᴜᴇꜱᴛ Fᴏʀᴍᴀᴛ 👇
 
 IMDb Data:
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
+<b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>
+🎭 Gᴇɴʀᴇꜱ : {genres}
+📆 Yᴇᴀʀ : <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
