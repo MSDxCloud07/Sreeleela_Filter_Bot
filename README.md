@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="VJ-Filter-Bot Logo">
+  <img src="https://i.ibb.co/6cx2b4PC/Picsart-25-06-03-12-44-42-940.jpg" alt="𝐌ꜱᴅ 𝐓ᴍᴠ 𝐀ᴜᴛᴏ 𝐑ꜱꜱ Logo">
 </p>
 <h1 align="center">
-  VJ FILTER BOT
+  𝐌ꜱᴅ x 𝐁ᴏᴛᴢ 👑🔥
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖ᴇʟᴄᴏᴍᴇ+𝐓ᴏ+𝐌ꜱᴅ+𝐓ᴍᴠ+𝐀ᴜᴛᴏ+𝐑ꜱꜱ!)
 </p>
 
 ## Main Feature 
