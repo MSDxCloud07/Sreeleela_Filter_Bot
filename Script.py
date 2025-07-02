@@ -6,7 +6,6 @@ class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {} 🤝,
 
 I Aᴍ Tʜᴇ Mᴏꜱᴛ Pᴏᴡᴇʀꜰᴜʟʟ Mᴇᴅɪᴀ Pʀᴏᴠɪᴅᴇʀ Bᴏᴛ. I Cᴀɴ Pʀᴏᴠɪᴅᴇᴅ Aʟʟ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ Oʀ Sᴇʀɪᴇꜱ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ !!! 😍</b>
-
 \n<blockquote>👨‍💻 𝐌ᴀɪɴᴛᴀɪɴᴇᴅ 𝐁ʏ : <a href="https://t.me/iam_MSD">𝐌ꜱᴅ ♔</a></blockquote></b>"""
     
     CLONE_START_TXT = """<b>Hᴇʟʟᴏ {} 🤝,
