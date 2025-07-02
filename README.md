@@ -5,7 +5,7 @@
   𝐌ꜱᴅ x 𝐁ᴏᴛᴢ 👑🔥
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖ᴇʟᴄᴏᴍᴇ+𝐓ᴏ+𝐌ꜱᴅ+𝐓ᴍᴠ+𝐀ᴜᴛᴏ+𝐑ꜱꜱ!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖ᴇʟᴄᴏᴍᴇ+𝐓ᴏ+𝐌ꜱᴅ+𝐅ɪʟᴛᴇʀ+𝐁ᴏᴛ!)
 </p>
 
 ## Main Feature 
