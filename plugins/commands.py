@@ -135,7 +135,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💢', url=f'https://t.me/MSD_Support_Group'),,
+                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💢', url=f'https://t.me/MSD_Support_Group'),
                 InlineKeyboardButton('Mᴏᴠɪᴇꜱ Gʀᴏᴜᴘ 🎬', url=f'https://t.me/Msd_Movies_Request')
             ],[
                 InlineKeyboardButton('Hᴇʟᴘ ⚙️', callback_data='help'),
