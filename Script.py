@@ -221,7 +221,7 @@ Pʟᴇᴀꜱᴇ Cʜᴇᴄᴋ Tʜᴇ Sᴘᴇʟʟɪɴɢ Oɴ Gᴏᴏɢʟᴇ Oʀ I�
 
     SHORTLINK_INFO = """
 
-🫵 Select Your Language And Earn Money 💰"""
+🫵 Sᴇʟᴇᴄᴛ Yᴏᴜʀ Lᴀɴɢᴜᴀɢᴇ Aɴᴅ Eᴀʀɴ Mᴏɴᴇʏ 💰"""
 
     REQINFO = """
 ⚠ Iɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -259,16 +259,16 @@ IMDb Data:
 <b>🏷 Tɪᴛʟᴇ</b> : <a href={url}>{title}</a>
 🎭 Gᴇɴʀᴇꜱ : {genres}
 📆 Yᴇᴀʀ : <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
+🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+☀️ Lᴀɴɢᴜᴀɢᴇꜱ : <code>{languages}</code>
+📀 RᴜɴTɪᴍᴇ : {runtime} Minutes
+📆 Rᴇʟᴇᴀꜱᴇ Iɴғᴏ : {release_date}
+🎛 Cᴏᴜɴᴛʀɪᴇꜱ : <code>{countries}</code>
 
 
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+⏰ Rᴇꜱᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>Sᴇᴄᴏɴᴅꜱ</i> 🔥
 
-Requested by : {message.from_user.mention}</b>"""
+Rᴇǫᴜᴇꜱᴛᴇᴅ Bʏ ☞ {message.from_user.mention}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -474,12 +474,14 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
-████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
-╚═ ██╔══╝██╔════╝██╔════╝██║  ██║     ║██      ██║        ██║
-   ██║    █████╗  ██║      ███████║      ║██    ██║         ██║
-   ██║    ██╔══╝  ██║      ██╔══██║       ║██  ██║  ╔██     ██║
-   ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
-   ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝"""
+  __  __  _____ _____           ____   ____ _______ ______
+ |  \/  |/ ____|  __ \         |  _ \ / __ \__   __|___  /
+ | \  / | (___ | |  | | __  __ | |_) | |  | | | |     / / 
+ | |\/| |\___ \| |  | | \ \/ / |  _ <| |  | | | |    / /  
+ | |  | |____) | |__| |  >  <  | |_) | |__| | | |   / /__ 
+ |_|  |_|_____/|_____/  /_/\_\ |____/ \____/  |_|  /_____|
+                                                          
+                                                          """
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
@@ -725,28 +727,28 @@ Also your tutorial will be Added Your Group..."""
     RENAME_TXT = """
 🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
   
-•> /set_thumb - send any picture to automatically set thumbnail.
-•> /del_thumb use this command and delete your old thumbnail.
-•> /view_thumb use this command view your current thumbnail.
+•> /set_thumb - Sᴇɴᴅ Aɴʏ Pɪᴄᴛᴜʀᴇ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ.
+•> /del_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Aɴᴅ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ Tʜᴜᴍʙɴᴀɪʟ.
+•> /view_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ.
 
-📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
+📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ</u></b>
 
-•> /set_caption - set a custom caption
-•> /see_caption - see your custom caption
-•> /del_caption - delete custom caption
+•> /set_caption - Sᴇᴛ A Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+•> /see_caption - Sᴇᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+•> /del_caption - Dᴇʟᴇᴛᴇ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
 
 Example:- /set_caption 📕 File Name: {filename}
 💾 Size: {filesize}
 ⏰ Duration: {duration}
 
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
+✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 
-•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
+•> /rename - Sᴇɴᴅ Aɴʏ Fɪʟᴇ Aɴᴅ Cʟɪᴄᴋ Rᴇɴᴀᴍᴇ Oᴘᴛɪᴏɴ Aɴᴅ Tʏᴘᴇ Nᴇᴡ Fɪʟᴇ Nᴀᴍᴇ Aɴᴅ \Tʜᴇɴ Sᴇʟᴇᴄᴛ [ Dᴏᴄᴜᴍᴇɴᴛ, Vɪᴅᴇᴏ, Aᴜᴅɪᴏ ] 👈 Cʜᴏɪᴄᴇ Tʜɪꜱ.
 """
 
-    STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
+    STREAM_TXT = """<b><u>Hᴏᴡ Tᴏ Gᴇᴛ Sᴛʀᴇᴀᴍ Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ</u>
 
-/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+/stream - Gᴇᴛ Sᴛʀᴇᴀᴍᴀʙʟᴇ Aɴᴅ Dᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ Lɪɴᴋ Oғ Aɴʏ Fɪʟᴇ</b>"""
 
 
 # Don't Remove Credit @VJ_Botz
