@@ -22,7 +22,7 @@ Hᴇʀᴇ Is Aʟʟ Mʏ Usᴇғᴜʟʟ Fᴇᴀᴛᴜʀᴇs 👻</b>"""
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a> 
 ├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a> 
-├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
+├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : V 𝟸.𝟽.𝟷 [ Bᴇᴛᴀ ]
 ╰───────────────⍟</b>"""
 
     CLONE_ABOUT_TXT = """<b>╭────[ Mʏ Dᴇᴛᴀɪʟꜱ ]────⍟
@@ -32,7 +32,7 @@ Hᴇʀᴇ Is Aʟʟ Mʏ Usᴇғᴜʟʟ Fᴇᴀᴛᴜʀᴇs 👻</b>"""
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a> 
 ├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a> 
-├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
+├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : V 𝟸.𝟽.𝟷 [ Bᴇᴛᴀ ]
 ╰───────────────⍟</b>"""
 
     CLONE_TXT = """<b>🌟 <u>Cʟᴏɴᴇ Mᴏᴅᴇ</u>
