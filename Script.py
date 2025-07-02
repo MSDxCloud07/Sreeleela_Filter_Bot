@@ -16,22 +16,22 @@ I Aᴍ Aᴅᴠᴀɴᴄᴇ Aɴᴅ Pᴏᴡᴇʀғᴜʟʟ Aᴜᴛᴏғɪʟᴛᴇʀ 
 Hᴇʀᴇ Is Aʟʟ Mʏ Usᴇғᴜʟʟ Fᴇᴀᴛᴜʀᴇs 👻</b>"""
 
     ABOUT_TXT = """<b>╭────[ Mʏ Dᴇᴛᴀɪʟꜱ ]────⍟
-├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/MSD_Filter_Bot>Mꜱᴅ Fɪʟᴛᴇʀ Bᴏᴛ</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=http://t.me/iam_MSD_Bot>Dʜᴀɴᴜꜱʜ Mꜱᴅ</a> 
-├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
-├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/Sreeleela_Filter_Bot>𝐒ʀᴇᴇʟᴇᴇʟᴀ ᥫ᭡</a>
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/iam_Vijay_Bot>Dʜᴀɴᴜꜱʜ Mꜱᴅ</a> 
+├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
+├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
     CLONE_ABOUT_TXT = """<b>╭────[ Mʏ Dᴇᴛᴀɪʟꜱ ]────⍟
-├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/MSD_Filter_Bot>Mꜱᴅ Fɪʟᴛᴇʀ Bᴏᴛ</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=http://t.me/iam_MSD_Bot>Dʜᴀɴᴜꜱʜ Mꜱᴅ</a> 
-├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
-├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/Sreeleela_Filter_Bot>𝐒ʀᴇᴇʟᴇᴇʟᴀ ᥫ᭡</a>
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/iam_Vijay_Bot>Dʜᴀɴᴜꜱʜ Mꜱᴅ</a> 
+├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
+├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
