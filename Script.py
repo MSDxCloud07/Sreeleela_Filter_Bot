@@ -3,18 +3,19 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
+    START_TXT = """<b>Hᴇʟʟᴏ {} 👋,
     
-ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ...💸</b>"""
+​
+I Aᴍ Tʜᴇ Mᴏꜱᴛ Pᴏᴡᴇʀꜰᴜʟʟ Mᴇᴅɪᴀ Pʀᴏᴠɪᴅᴇʀ Bᴏᴛ. I Cᴀɴ Pʀᴏᴠɪᴅᴇᴅ Aʟʟ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ Oʀ Sᴇʀɪᴇꜱ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ !!! 😍</b>"""
 
-    CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    CLONE_START_TXT = """<b>Hᴇʟʟᴏ {} 👋,
     
-ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
+I Aᴍ Aᴅᴠᴀɴᴄᴇ Aɴᴅ Pᴏᴡᴇʀғᴜʟʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Aᴍᴀᴢɪɴɢ Fᴇᴀᴛᴜʀᴇs Jᴜsᴛ Tʏᴘᴇ Wʜᴀᴛ Yᴏᴜ Wᴀɴᴛ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀ !!! 😍</b>"""
     
-    HELP_TXT = """<b>ʜᴇʟʟᴏ {}
-ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇs.</b>"""
+    HELP_TXT = """<b>Hᴇʟʟᴏ {} 👋,
+Hᴇʀᴇ Is Aʟʟ Mʏ Usᴇғᴜʟʟ Fᴇᴀᴛᴜʀᴇs 👻</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
+    ABOUT_TXT = """<b>⍟───[ ᴍʏ ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
