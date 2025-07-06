@@ -3,9 +3,9 @@
 # Ask Doubt on telegram @KingVJ01
 
 
+import os
 import re
-from os import environ
-from Script import script 
+from os import environ,getenv
 
 id_pattern = re.compile(r'^.\d+$')
 
