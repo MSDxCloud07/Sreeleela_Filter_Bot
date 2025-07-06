@@ -53,9 +53,9 @@ async def download_instagram_content(client, message: Message):
         await processing.delete()
 
         if total_photos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_photos} Pʜᴏᴛᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_photos} Pʜᴏᴛᴏ's**")
         elif total_videos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ's**")
         else:
             await message.reply("**Nᴏ Mᴇᴅɪᴀ Fᴏᴜɴᴅ Tᴏ Sᴇɴᴅ ... 🤷**")
 
@@ -107,7 +107,7 @@ async def download_instagram_content(client, message: Message):
                 # Prepare the caption for the message
                 caption = (
                        f"**{first_line}**\n\n"
-                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : Msᴅ ♔ (https://t.me/iam_Vijay_Bot)**\n\n"
+                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [Msᴅ ♔] (https://t.me/iam_Vijay_Bot)**\n\n"
                        f"**Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🎬 : [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
                        f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ {message.from_user.mention}**\n\n"
                        f"**Sʜᴏᴡ Sᴏᴍᴇ Rᴇᴀᴄᴛɪᴏɴ !!! 😍**\n\n"
@@ -128,7 +128,7 @@ async def download_instagram_content(client, message: Message):
         await processing.delete()
 
         if total_videos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ's**")
         else:
             await message.reply("**Nᴏ Mᴇᴅɪᴀ Fᴏᴜɴᴅ Tᴏ Sᴇɴᴅ**")
 
