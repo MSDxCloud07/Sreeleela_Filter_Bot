@@ -107,7 +107,7 @@ async def download_instagram_content(client, message: Message):
                 # Prepare the caption for the message
                 caption = (
                        f"**{first_line}**\n\n"
-                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [Msᴅ ♔] (https://t.me/iam_Vijay_Bot)**\n\n"
+                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [Vɪᴊᴀʏ](https://t.me/iam_Vijay_Bot)**\n\n"
                        f"**Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🎬 : [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
                        f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ {message.from_user.mention}**\n\n"
                        f"**Sʜᴏᴡ Sᴏᴍᴇ Rᴇᴀᴄᴛɪᴏɴ !!! 😍**\n\n"
