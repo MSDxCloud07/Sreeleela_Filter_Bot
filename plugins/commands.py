@@ -72,7 +72,7 @@ async def start(client, message):
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=f'https://t.me/MSDxBotz')
             ]]
         if CLONE_MODE == True:
-            buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+            buttons.append([InlineKeyboardButton('Cʀᴇᴀᴛᴇ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
         await asyncio.sleep(1)
@@ -93,10 +93,10 @@ async def start(client, message):
                 invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except Exception as e:
             print(e)
-            await message.reply_text("Make sure Bot is admin in Forcesub channel")
+            await message.reply_text("Mᴀᴋᴇ Sᴜʀᴇ Bᴏᴛ Is Aᴅᴍɪɴ Iɴ Fᴏʀᴄᴇsᴜʙ Cʜᴀɴɴᴇʟ !!! 😍")
             return
         try:
-            btn = [[InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
+            btn = [[InlineKeyboardButton("Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
             if message.command[1] != "subscribe":
                 if REQUEST_TO_JOIN_MODE == True:
                     if TRY_AGAIN_BTN == True:
@@ -113,12 +113,12 @@ async def start(client, message):
                         btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
             if REQUEST_TO_JOIN_MODE == True:
                 if TRY_AGAIN_BTN == True:
-                    text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ**"
+                    text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ **"
                 else:
                     await db.set_msg_command(message.from_user.id, com=message.command[1])
-                    text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ**"
+                    text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ **"
             else:
-                text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ**"
+                text = "**🕵️ Yᴏᴜ Dᴏ Nᴏᴛ Jᴏɪɴ Mʏ Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ Fɪʀsᴛ Jᴏɪɴ Cʜᴀɴɴᴇʟ Tʜᴇɴ Tʀʏ Aɢᴀɪɴ **"
             await client.send_message(
                 chat_id=message.from_user.id,
                 text=text,
@@ -128,7 +128,7 @@ async def start(client, message):
             return
         except Exception as e:
             print(e)
-            return await message.reply_text("something wrong with force subscribe.")
+            return await message.reply_text("Sᴏᴍᴇᴛʜɪɴɢ Wʀᴏɴɢ Wɪᴛʜ Fᴏʀᴄᴇ Sᴜʙsᴄʀɪʙᴇ")
             
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
@@ -156,7 +156,7 @@ async def start(client, message):
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=f'https://t.me/MSDxBotz')
             ]]
         if CLONE_MODE == True:
-            buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
+            buttons.append([InlineKeyboardButton('Cʀᴇᴀᴛᴇ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -227,7 +227,7 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("<b>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</b>")
+        sts = await message.reply("<b>Pʟᴇᴀsᴇ Wᴀɪᴛ... ⏳</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
@@ -376,7 +376,7 @@ async def start(client, message):
             return await message.reply_text(text="<b>ɪɴᴠᴀʟɪᴅ ʟɪɴᴋ ᴏʀ ᴇxᴘɪʀᴇᴅ ʟɪɴᴋ</b>", protect_content=True)
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
-            text = "<b>ʜᴇʏ {} 👋,\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ...\n\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴛɪʟʟ ᴛᴏᴅᴀʏ ɴᴏᴡ ᴇɴᴊᴏʏ\n\n</b>"
+            text = "<b>ʜᴇʏ {} 👋,\n\nYᴏᴜ Hᴀᴠᴇ Cᴏᴍᴘʟᴇᴛᴇᴅ Tʜᴇ Vᴇʀɪꜰɪᴄᴀᴛɪᴏɴ...\n\nNᴏᴡ Yᴏᴜ Hᴀᴠᴇ Uɴʟɪᴍɪᴛᴇᴅ Aᴄᴄᴇss Tɪʟʟ Tᴏᴅᴀʏ Nᴏᴡ Eɴᴊᴏʏ\n\n</b>"
             if PREMIUM_AND_REFERAL_MODE == True:
                 text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ☺️\n\n💶 ꜱᴇɴᴅ /plan ᴛᴏ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ</b>"           
             await message.reply_text(text=text.format(message.from_user.mention), protect_content=True)
@@ -542,11 +542,11 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(caption=f_caption)
-            btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
-            k = await msg.reply(text=f"<blockquote><b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")
+            btn = [[InlineKeyboardButton("✅ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
+            k = await msg.reply(text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")
             await asyncio.sleep(600)
             await msg.delete()
-            await k.edit_text("<b>✅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀɢᴀɪɴ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("<b>Yᴏᴜʀ Mᴇssᴀɢᴇ Is Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ Iғ Yᴏᴜ Wᴀɴᴛ Aɢᴀɪɴ Tʜᴇɴ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
@@ -590,11 +590,11 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=reply_markup
     )
-    btn = [[InlineKeyboardButton("✅ ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
+    btn = [[InlineKeyboardButton("✅ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
     k = await msg.reply(text=f"<blockquote><b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")
     await asyncio.sleep(600)
     await msg.delete()
-    await k.edit_text("<b>✅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀɢᴀɪɴ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b>Yᴏᴜʀ Mᴇssᴀɢᴇ Is Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ Iғ Yᴏᴜ Wᴀɴᴛ Aɢᴀɪɴ Tʜᴇɴ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return   
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -1102,7 +1102,7 @@ async def offshortlink(bot, message):
     userid = message.from_user.id
     user = await bot.get_chat_member(grpid, userid)
     if user.status != enums.ChatMemberStatus.ADMINISTRATOR and user.status != enums.ChatMemberStatus.OWNER and str(userid) not in ADMINS:
-        return await message.reply_text("<b>You don't have access to use this command!\n\nAdd Me to Your Own Group as Admin and Try This Command\n\nFor More PM Me With This Command</b>")
+        return await message.reply_text("<b>Yᴏᴜ Dᴏɴ'ᴛ Hᴀᴠᴇ Aᴄᴄᴇss Tᴏ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ !!!n\Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Tʀʏ Tʜɪs Cᴏᴍᴍᴀɴᴅ\n\nFor More PM Me With This Command</b>")
     else:
         pass
     await save_group_settings(grpid, 'is_shortlink', False)
@@ -1122,7 +1122,7 @@ async def onshortlink(bot, message):
     userid = message.from_user.id
     user = await bot.get_chat_member(grpid, userid)
     if user.status != enums.ChatMemberStatus.ADMINISTRATOR and user.status != enums.ChatMemberStatus.OWNER and str(userid) not in ADMINS:
-        return await message.reply_text("<b>You don't have access to use this command!\n\nAdd Me to Your Own Group as Admin and Try This Command\n\nFor More PM Me With This Command</b>")
+        return await message.reply_text("<b>You don't have access to use this command!\n\nAdd Me to Your Own Group as Admin and Try This Command\n\Fᴏʀ Mᴏʀᴇ PM Mᴇ Wɪᴛʜ Tʜɪs Cᴏᴍᴍᴀɴᴅ</b>")
     else:
         pass
     settings = await get_settings(grpid)
@@ -1149,7 +1149,7 @@ async def showshortlink(bot, message):
     userid = message.from_user.id
     user = await bot.get_chat_member(grpid, userid)
     if user.status != enums.ChatMemberStatus.ADMINISTRATOR and user.status != enums.ChatMemberStatus.OWNER and str(userid) not in ADMINS:
-        return await message.reply_text("<b>Tʜɪs ᴄᴏᴍᴍᴀɴᴅ Wᴏʀᴋs Oɴʟʏ Fᴏʀ ᴛʜɪs Gʀᴏᴜᴘ Oᴡɴᴇʀ/Aᴅᴍɪɴ\n\nTʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪɴ ʏᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ, Iғ Yᴏᴜ Aʀᴇ Usɪɴɢ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ</b>")
+        return await message.reply_text("<b>Tʜɪs ᴄᴏᴍᴍᴀɴᴅ Wᴏʀᴋs Oɴʟʏ Fᴏʀ ᴛʜɪs Gʀᴏᴜᴘ Oᴡɴᴇʀ/Aᴅᴍɪɴ\n\Tʀʏ Tʜɪs Cᴏᴍᴍᴀɴᴅ Iɴ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ, Iғ Yᴏᴜ Aʀᴇ Usɪɴɢ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ</b>")
     else:
         settings = await get_settings(chat_id) #fetching settings for group
         if 'shortlink' in settings.keys() and 'tutorial' in settings.keys():
@@ -1172,10 +1172,10 @@ async def showshortlink(bot, message):
 async def settutorial(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
-        return await message.reply(f"You are anonymous admin. Turn off anonymous admin and try again this command")
+        return await message.reply(f"Yᴏᴜ Aʀᴇ Aɴᴏɴʏᴍᴏᴜs Aᴅᴍɪɴ. Tᴜʀɴ Oғғ Aɴᴏɴʏᴍᴏᴜs Aᴅᴍɪɴ Aɴᴅ Tʀʏ Aɢᴀɪɴ Tʜɪs Cᴏᴍᴍᴀɴᴅ")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text("This Command Work Only in group\n\nTry it in your own group")
+        return await message.reply_text("Tʜɪs Cᴏᴍᴍᴀɴᴅ Wᴏʀᴋ Oɴʟʏ Iɴ Gʀᴏᴜᴘ\n\Tʀʏ Iᴛ Iɴ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
