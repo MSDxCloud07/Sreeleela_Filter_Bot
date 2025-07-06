@@ -15,9 +15,9 @@ async def download_instagram_content(client, message: Message):
     try:
         url = message.text.strip()
         if not ("/reel/" in url or "/p/" in url):
-            return await message.reply("**Sᴇɴᴅ ᴀ ʀᴇᴇʟ ᴏʀ ᴘᴏsᴛ ʟɪɴᴋ ᴏɴʟʏ.**")
+            return await message.reply("**Sᴇɴᴅ A Rᴇᴇʟ Oʀ Pᴏsᴛ Lɪɴᴋ Oɴʟʏ !!! 😅**")
 
-        processing = await message.reply("**Pʀᴏᴄᴇssɪɴɢ...👀**")
+        processing = await message.reply("**Pʀᴏᴄᴇssɪɴɢ...👨‍💻**")
         loader = instaloader.Instaloader()
         download_dir = "downloads"
         os.makedirs(download_dir, exist_ok=True)
@@ -37,7 +37,7 @@ async def download_instagram_content(client, message: Message):
                     path,
                     caption=f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ {message.from_user.mention}\n\n[Sᴏᴜʀᴄᴇ]({url})**",
                 )
-                await message.reply_video(path, caption="**Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ ᴍᴇ ❤️**")
+                await message.reply_video(path, caption="**Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ !!! 😍**")
                 total_videos += 1
             elif file.endswith(('.jpg', '.png')):
                 await client.send_photo(
@@ -53,11 +53,11 @@ async def download_instagram_content(client, message: Message):
         await processing.delete()
 
         if total_photos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_photos} ᴘʜᴏᴛᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_photos} Pʜᴏᴛᴏ(s)**")
         elif total_videos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} ᴠɪᴅᴇᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ(s)**")
         else:
-            await message.reply("**Nᴏ ᴍᴇᴅɪᴀ ғᴏᴜɴᴅ ᴛᴏ sᴇɴᴅ.**")
+            await message.reply("**Nᴏ Mᴇᴅɪᴀ Fᴏᴜɴᴅ Tᴏ Sᴇɴᴅ ... 🤷**")
 
     except FloodWait as e:
         await message.reply_text(f"**FloodWait: {e.value}s**")
@@ -81,9 +81,9 @@ async def download_instagram_content(client, message: Message):
     try:
         url = message.text.strip()
         if not ("/reel/" in url or "/p/" in url):
-            return await message.reply("**Sᴇɴᴅ ᴀ ʀᴇᴇʟ ᴏʀ ᴘᴏsᴛ ʟɪɴᴋ ᴏɴʟʏ.**")
+            return await message.reply("**Sᴇɴᴅ A Rᴇᴇʟ Oʀ Pᴏsᴛ Lɪɴᴋ Oɴʟʏ !!! 😅**")
 
-        processing = await message.reply("**Pʀᴏᴄᴇssɪɴɢ...👀**")
+        processing = await message.reply("**Pʀᴏᴄᴇssɪɴɢ...👨‍💻**")
         loader = instaloader.Instaloader()
         download_dir = "downloads"
         os.makedirs(download_dir, exist_ok=True)
@@ -107,10 +107,10 @@ async def download_instagram_content(client, message: Message):
                 # Prepare the caption for the message
                 caption = (
                        f"**{first_line}**\n\n"
-                       f"**🎬 Mᴏᴠɪᴇs: [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
-                       f"**📲 Iɴsᴛᴀ Vɪʙᴇs: [Jᴏɪɴ Nᴏᴡ](https://t.me/+tzxzZ66TlzoxMzU1)**\n\n"
+                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
+                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [𝐈𝛕ᷟ‌𝚣ꙴ 𝐕ɪᴊᴀʏ](https://t.me/iam_Vijay_Bot)**\n\n"
                        f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ {message.from_user.mention}**\n\n"
-                       f"**Show some Reaction!**\n\n"
+                       f"**Sʜᴏᴡ Sᴏᴍᴇ Rᴇᴀᴄᴛɪᴏɴ !!! 😍**\n\n"
                       )
 
                 # Send the video or image to the dump channel
