@@ -2694,9 +2694,9 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nRᴇꜱᴜʟᴛ Sʜᴏᴡ Iɴ ☞ {remaining_seconds} Sᴇᴄᴏɴᴅꜱ\n\nPᴏᴡᴇʀᴇᴅ Bʏ ☞ : {message.chat.title} \n\n⚠️ Aꜰᴛᴇʀ 𝟻 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇꜱꜱᴀɢᴇ Eɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ 🗑️ 🗑️\n\n</b>"
+            cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nRᴇꜱᴜʟᴛ Sʜᴏᴡ Iɴ ☞ {remaining_seconds} Sᴇᴄᴏɴᴅꜱ\n\nPᴏᴡᴇʀᴇᴅ Bʏ ☞ : {message.chat.title} \n\n⚠️ Aꜰᴛᴇʀ 𝟻 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇꜱꜱᴀɢᴇ Eɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
         else:
-            cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nRᴇꜱᴜʟᴛ Sʜᴏᴡ Iɴ ☞ {remaining_seconds} Sᴇᴄᴏɴᴅꜱ\n\nPᴏᴡᴇʀᴇᴅ Bʏ ☞ : {message.chat.title} \n\n⚠️ Aꜰᴛᴇʀ 𝟻 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇꜱꜱᴀɢᴇ Eɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ 🗑️ 🗑️\n\n</b>"
+            cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {message.from_user.mention}\n\nRᴇꜱᴜʟᴛ Sʜᴏᴡ Iɴ ☞ {remaining_seconds} Sᴇᴄᴏɴᴅꜱ\n\nPᴏᴡᴇʀᴇᴅ Bʏ ☞ : {message.chat.title} \n\n⚠️ Aꜰᴛᴇʀ 𝟻 Mɪɴᴜᴛᴇꜱ Tʜɪꜱ Mᴇꜱꜱᴀɢᴇ Eɪʟʟ Bᴇ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Dᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
             cap+="<b><u>🍿 Yᴏᴜʀ Mᴏᴠɪᴇ Fɪʟᴇꜱ 👇</u></b>\n\n"
             for file in files:
                 cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
@@ -2798,7 +2798,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     SPELL_CHECK[mv_id] = movielist
     if AI_SPELL_CHECK == True and vj_search == True:
         vj_search_new = False
-        vj_ai_msg = await reply_msg.edit_text("<b><i>I Am Trying To Find Your Movie With Your Wrong Spelling.</i></b>")
+        vj_ai_msg = await reply_msg.edit_text("<b><i>I Aᴍ Tʀʏɪɴɢ Tᴏ Fɪɴᴅ Yᴏᴜʀ Mᴏᴠɪᴇ Wɪᴛʜ Yᴏᴜʀ Wʀᴏɴɢ Sᴘᴇʟʟɪɴɢ... 👨‍💻</i></b>")
         movienamelist = []
         movienamelist += [movie.get('title') for movie in movies]
         for techvj in movienamelist:
