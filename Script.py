@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {} 🤝,
+    START_TXT = """<b>Hᴇʟʟᴏ {}
 
 I Aᴍ Tʜᴇ Mᴏꜱᴛ Pᴏᴡᴇʀꜰᴜʟʟ Mᴇᴅɪᴀ Pʀᴏᴠɪᴅᴇʀ Bᴏᴛ. I Cᴀɴ Pʀᴏᴠɪᴅᴇᴅ Aʟʟ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ Oʀ Sᴇʀɪᴇꜱ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Nᴀᴍᴇ !!! 😍</b>
 \n<blockquote>👨‍💻 𝐌ᴀɪɴᴛᴀɪɴᴇᴅ 𝐁ʏ : <a href="https://t.me/iam_MSD">𝐌ꜱᴅ ♔</a></blockquote></b>"""
@@ -12,7 +12,9 @@ I Aᴍ Tʜᴇ Mᴏꜱᴛ Pᴏᴡᴇʀꜰᴜʟʟ Mᴇᴅɪᴀ Pʀᴏᴠɪᴅᴇʀ
    
 I Aᴍ Aᴅᴠᴀɴᴄᴇ Aɴᴅ Pᴏᴡᴇʀғᴜʟʟ Aᴜᴛᴏғɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Aᴍᴀᴢɪɴɢ Fᴇᴀᴛᴜʀᴇs Jᴜsᴛ Tʏᴘᴇ Wʜᴀᴛ Yᴏᴜ Wᴀɴᴛ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀ !!! 😍</b>"""
     
-    HELP_TXT = """<b>Hᴇʟʟᴏ {} 🤝,
+    HELP_TXT = """<b>Hᴇʟʟᴏ
+
+
 Hᴇʀᴇ Is Aʟʟ Mʏ Usᴇғᴜʟʟ Fᴇᴀᴛᴜʀᴇs 👻</b>"""
 
     ABOUT_TXT = """<b>╭────[ Mʏ Dᴇᴛᴀɪʟꜱ ]────⍟
