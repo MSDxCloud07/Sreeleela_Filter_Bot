@@ -262,10 +262,10 @@ async def start(client, message):
 
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                        InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💢', url=f'https://t.me/MSD_Support_Group'),
+                        InlineKeyboardButton('Mᴏᴠɪᴇꜱ Gʀᴏᴜᴘ 🎬', url=f'https://t.me/Msd_Movies_Request')
                     ],[
-                    
+                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇,', url=f'https://t.me/MSDxBotz')
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
@@ -334,10 +334,10 @@ async def start(client, message):
  
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                        InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💢', url=f'https://t.me/MSD_Support_Group'),
+                    InlineKeyboardButton('Mᴏᴠɪᴇꜱ Gʀᴏᴜᴘ 🎬', url=f'https://t.me/Msd_Movies_Request')
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇,', url=f'https://t.me/MSDxBotz')
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
