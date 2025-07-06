@@ -107,8 +107,8 @@ async def download_instagram_content(client, message: Message):
                 # Prepare the caption for the message
                 caption = (
                        f"**{first_line}**\n\n"
-                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
-                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : [𝐈𝛕ᷟ‌𝚣ꙴ 𝐕ɪᴊᴀʏ](https://t.me/iam_Vijay_Bot)**\n\n"
+                       f"**Dᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻 : Msᴅ ♔ (https://t.me/iam_Vijay_Bot)**\n\n"
+                       f"**Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🎬 : [Jᴏɪɴ Nᴏᴡ](https://t.me/MSDxBotz)**\n\n"
                        f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ Bʏ {message.from_user.mention}**\n\n"
                        f"**Sʜᴏᴡ Sᴏᴍᴇ Rᴇᴀᴄᴛɪᴏɴ !!! 😍**\n\n"
                       )
@@ -117,7 +117,7 @@ async def download_instagram_content(client, message: Message):
                 if file.endswith('.mp4'):
                     await client.send_video(DUMP_CHANNEL, path, caption=caption)
 
-                await message.reply_video(path, caption="**Thanks for using me ❤️**") if file.endswith('.mp4') else await message.reply_photo(path, caption="**Thanks for using me ❤️**")
+                await message.reply_video(path, caption="**Tʜᴀɴᴋs Fᴏʀ Usɪɴɢ Mᴇ !!! 😍**") if file.endswith('.mp4') else await message.reply_photo(path, caption="**Thanks for using me ❤️**")
                 total_videos += 1
 
             # Clean up the downloaded file
@@ -128,9 +128,9 @@ async def download_instagram_content(client, message: Message):
         await processing.delete()
 
         if total_videos:
-            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} ᴠɪᴅᴇᴏ(s)**")
+            await message.reply(f"**Dᴏᴡɴʟᴏᴀᴅᴇᴅ {total_videos} Vɪᴅᴇᴏ(s)**")
         else:
-            await message.reply("**Nᴏ ᴠɪᴅᴇᴏ ғᴏᴜɴᴅ ᴛᴏ sᴇɴᴅ.**")
+            await message.reply("**Nᴏ Mᴇᴅɪᴀ Fᴏᴜɴᴅ Tᴏ Sᴇɴᴅ**")
 
     except FloodWait as e:
         await message.reply_text(f"**FloodWait: {e.value}s**")
