@@ -32,7 +32,7 @@ DUMP_CHANNEL = int(os.environ.get('DUMP_CHANNEL', '-1002652418330'))
 INSTA_CHANNEL = int(environ.get('INSTA_CHANNEL', '-1002668185724'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002874372912').split(-1002603042037)]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002874372912 -1002603042037').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
