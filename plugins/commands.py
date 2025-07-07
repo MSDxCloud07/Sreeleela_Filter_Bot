@@ -294,7 +294,7 @@ async def start(client, message):
                 continue
             await asyncio.sleep(1) 
         await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓</b>❗️❗️❗️\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🫥</b> (<i>Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs</i>)\n<b>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Iᴛ Fʀᴏᴍ Tʜᴇʀᴇ ✅</b>'")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗❗❗ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 ❗❗❗</u></b>\n\n<i>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ <u><b>𝟷𝟶 Mɪɴs</b></u> 😕 ( Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</i>\n\n<b><i>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ</i></b>'")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -362,7 +362,7 @@ async def start(client, message):
             filesarr.append(p)
             await asyncio.sleep(1)
         await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓</b>❗️❗️❗️\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🫥</b> (<i>Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs</i>)\n<b>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Iᴛ Fʀᴏᴍ Tʜᴇʀᴇ ✅</b>'")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗❗❗ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 ❗❗❗</u></b>\n\n<i>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ <u><b>𝟷𝟶 Mɪɴs</b></u> 😕 ( Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</i>\n\n<b><i>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -470,7 +470,7 @@ async def start(client, message):
                 reply_markup=reply_markup
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓</b>❗️❗️❗️\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🫥</b> (<i>Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs</i>)\n<b>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Iᴛ Fʀᴏᴍ Tʜᴇʀᴇ ✅</b>'")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗❗❗ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 ❗❗❗</u></b>\n\n<i>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ <u><b>𝟷𝟶 Mɪɴs</b></u> 😕 ( Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</i>\n\n<b><i>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -543,7 +543,7 @@ async def start(client, message):
                     return
             await msg.edit_caption(caption=f_caption)
             btn = [[InlineKeyboardButton("✅ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
-            k = await msg.reply(text=f"<b>𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓</b>❗️❗️❗️\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🫥</b> (<i>Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs</i>)\n<b>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Iᴛ Fʀᴏᴍ Tʜᴇʀᴇ ✅</b>'")
+            k = await msg.reply(text=f"<b><u>❗❗❗ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 ❗❗❗</u></b>\n\n<i>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ <u><b>𝟷𝟶 Mɪɴs</b></u> 😕 ( Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</i>\n\n<b><i>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ</i></b>")
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>Yᴏᴜʀ Mᴇssᴀɢᴇ Is Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ Iғ Yᴏᴜ Wᴀɴᴛ Aɢᴀɪɴ Tʜᴇɴ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -591,7 +591,7 @@ async def start(client, message):
         reply_markup=reply_markup
     )
     btn = [[InlineKeyboardButton("✅ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ✅", callback_data=f'del#{file_id}')]]
-    k = await msg.reply(text=f"<b>𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓</b>❗️❗️❗️\n<b>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 𝟷𝟶 Mɪɴs 🫥</b> (<i>Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs</i>)\n<b>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Dᴏᴡɴʟᴏᴀᴅ Iᴛ Fʀᴏᴍ Tʜᴇʀᴇ ✅</b>'")
+    k = await msg.reply(text=f"<b><u>❗❗❗ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 ❗❗❗</u></b>\n\n<i>Tʜɪs Mᴏᴠɪᴇ Fɪʟᴇ / Vɪᴅᴇᴏ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ <u><b>𝟷𝟶 Mɪɴs</b></u> 😕 ( Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</i>\n\n<b><i>Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ / Vɪᴅᴇᴏ Tᴏ Yᴏᴜʀ Sᴀᴠᴇᴅ Mᴇssᴀɢᴇs Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅ Tʜᴇʀᴇ</i></b>")
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>Yᴏᴜʀ Mᴇssᴀɢᴇ Is Sᴜᴄᴄᴇssғᴜʟʟʏ Dᴇʟᴇᴛᴇᴅ Iғ Yᴏᴜ Wᴀɴᴛ Aɢᴀɪɴ Tʜᴇɴ Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
