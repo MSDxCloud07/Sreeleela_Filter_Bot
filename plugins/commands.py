@@ -251,7 +251,7 @@ async def start(client, message):
     "Link : https://t.me/Msd_Movies_Request\n\n"
     "<b>Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 👑</b>\n"
     "Link : https://t.me/MSDxBotz"
-                             )")
+                             ")
             if BATCH_FILE_CAPTION:
                 try:
                     f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
