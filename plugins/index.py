@@ -35,7 +35,7 @@ async def index_files(bot, query):
         return await query.answer('Wait until previous process complete.', show_alert=True)
     msg = query.message
 
-    await query.answer('Processing...⏳', show_alert=True)
+    await query.answer('Pʀᴏᴄᴇssɪɴɢ !!! 👨‍💻', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(
             int(from_user),
@@ -57,7 +57,7 @@ async def index_files(bot, query):
 
 @Client.on_message(filters.private & filters.command('index'))
 async def send_for_index(bot, message):
-    vj = await bot.ask(message.chat.id, "**Now Send Me Your Channel Last Post Link Or Forward A Last Message From Your Index Channel.\n\nAnd You Can Set Skip Number By - /setskip yourskipnumber**")
+    vj = await bot.ask(message.chat.id, "**Nᴏᴡ Sᴇɴᴅ Mᴇ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Lᴀsᴛ Pᴏsᴛ Lɪɴᴋ Oʀ Fᴏʀᴡᴀʀᴅ A Lᴀsᴛ Mᴇssᴀɢᴇ Fʀᴏᴍ Yᴏᴜʀ Iɴᴅᴇx Cʜᴀɴɴᴇʟ !!! ❤️‍🔥\n\Aɴᴅ Yᴏᴜ Cᴀɴ Sᴇᴛ Sᴋɪᴘ Nᴜᴍʙᴇʀ Bʏ ☞ /setskip Yᴏᴜʀ Sᴋɪᴘ Nᴜᴍʙᴇʀ !!! 😍**")
     if vj.forward_from_chat and vj.forward_from_chat.type == enums.ChatType.CHANNEL:
         last_msg_id = vj.forward_from_message_id
         chat_id = vj.forward_from_chat.username or vj.forward_from_chat.id
@@ -75,7 +75,7 @@ async def send_for_index(bot, message):
     try:
         await bot.get_chat(chat_id)
     except ChannelInvalid:
-        return await vj.reply('This may be a private channel / group. Make me an admin over there to index the files.')
+        return await vj.reply('Tʜɪs Mᴀʏ Bᴇ A Pʀɪᴠᴀᴛᴇ Cʜᴀɴɴᴇʟ / group. Mᴀᴋᴇ Mᴇ Aɴ Aᴅᴍɪɴ Oᴠᴇʀ Tʜᴇʀᴇ Tᴏ Iɴᴅᴇx Tʜᴇ Fɪʟᴇs')
     except (UsernameInvalid, UsernameNotModified):
         return await vj.reply('Invalid Link specified.')
     except Exception as e:
@@ -84,9 +84,9 @@ async def send_for_index(bot, message):
     try:
         k = await bot.get_messages(chat_id, last_msg_id)
     except:
-        return await message.reply('Make Sure That Iam An Admin In The Channel, if channel is private')
+        return await message.reply('Mᴀᴋᴇ Sᴜʀᴇ Tʜᴀᴛ I Aᴍ Aɴ Aᴅᴍɪɴ Iɴ Tʜᴇ Cʜᴀɴɴᴇʟ, Iғ Cʜᴀɴɴᴇʟ Is Pʀɪᴠᴀᴛᴇ')
     if k.empty:
-        return await message.reply('This may be group and iam not a admin of the group.')
+        return await message.reply('Tʜɪs Mᴀʏ Bᴇ Gʀᴏᴜᴘ Aɴᴅ I Aᴍ Nᴏᴛ A Aᴅᴍɪɴ Oғ Tʜᴇ Gʀᴏᴜᴘ')
 
     if message.from_user.id in ADMINS:
         buttons = [[
